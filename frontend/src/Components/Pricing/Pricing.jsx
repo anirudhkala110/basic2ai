@@ -64,7 +64,7 @@ const Pricing = () => {
                                             <button className='border-0 p-2 rounded  mt-3' style={{ display: `${show.show1 ? 'block' : 'none'}` }} onClick={e => setShow({ ...show, show1: !show.show1 })}>@400 Rs /-</button>
                                             <button className='handleRate p-2 rounded  mt-3' style={{ display: `${show.show1 ? 'block' : 'none'}` }} onClick={e => handleRoute('contact')}>Enroll Now</button>
                                             <hr />
-                                            <p className='note'><sub>Write a message to the Admin for Enabling the Package with the choosen package name or can use call button.</sub></p>
+                                            <p className='note'><sub className="text-danger fw-semibold"><sup>*</sup>Note: Write a message to the Admin for Enabling the Package with the choosen package name or can use call button.</sub></p>
                                         </li>
                                     </>}
                                 </ul>
@@ -86,7 +86,7 @@ const Pricing = () => {
                                             <button className='border-0 p-2 rounded  mt-3' style={{ display: `${show.show2 ? 'block' : 'none'}` }} onClick={e => setShow({ ...show, show2: !show.show2 })}>@1000 Rs/-</button>
                                             <button className='handleRate p-2 rounded  mt-3' style={{ display: `${show.show2 ? 'block' : 'none'}` }} onClick={e => handleRoute('contact')}>Enroll Now</button>
                                             <hr />
-                                            <p className='note'><sub>Write a message to the Admin for Enabling the Package with the choosen package name or can use call button.</sub></p>
+                                            <p className='note'><sub className="text-danger fw-semibold"><sup>*</sup>Note: Write a message to the Admin for Enabling the Package with the choosen package name or can use call button.</sub></p>
                                         </li> </>}
                                 </ul>
                             </div>
@@ -113,7 +113,7 @@ const Pricing = () => {
                                                 <button className='border-0 p-2 rounded  mt-3' style={{ display: `${show.show3 ? 'block' : 'none'}` }} onClick={e => setShow({ ...show, show3: !show.show3 })}>@5000 Rs/-</button>
                                                 <button className='handleRate enroll p-2 rounded  mt-3' onClick={e => handleRoute('contact')}>Enroll Now</button>
                                                 <hr />
-                                                <p className='note'><sub>Write a message to the Admin for Enabling the Package with the choosen package name or can use call button.</sub></p>
+                                                <p className='note'><sub className="text-danger fw-semibold"><sup>*</sup>Note: Write a message to the Admin for Enabling the Package with the choosen package name or can use call button.</sub></p>
                                             </li>
                                         </>}
                                 </ul>
