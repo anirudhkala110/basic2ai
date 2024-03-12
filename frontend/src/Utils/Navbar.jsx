@@ -51,7 +51,7 @@ const Navbar = () => {
                     <button class="btn btn-dark me-2 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <i class="bi bi-list"></i>
                     </button>
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
                             <img src={logo} className="rounded-4 border shadow" style={{ maxWidth: "50px" }} />
                             <h2 className='mx-3'>B2A (Basic to AI)</h2>
