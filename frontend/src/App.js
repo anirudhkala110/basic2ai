@@ -54,7 +54,7 @@ function App() {
               <div className='w-100 d-flex align-items-bottom  justify-content-start fixed-top mt-5 pt-3 pe-4' style={{ height: "20px" }}>
                 <button className='fw-bolder rounded-5 shadow mt-5 sliderCallBtn' onClick={e => handleCallBtn(7668490213)}><img src={callBtn} className='' width={50} /></button>
               </div>
-              <div className='container-fluid'>
+              <div className='container-fluid app'>
                 <Router>
                   <Routes>
                     <Route exact path='/login' element={login ? <Homepage /> : <Login />} />
