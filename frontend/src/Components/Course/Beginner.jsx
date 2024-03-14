@@ -60,7 +60,7 @@ const Beginner = () => {
     return (
         <div className='p-2 my-2' style={{ minWidth: "250px" }}>
             <Helmet>
-                <title>B2A-Python Setup</title>
+                <title>B2A - Python Setup</title>
                 <meta name='description' content="Basic Python covers essential concepts and constructs of the Python programming language, including variables, loops, conditionals, and functions. It serves as a stepping stone for beginners to understand programming principles and develop problem-solving skills. With Basic Python, you embark on a journey to explore the core features of Python, paving the way for further learning and mastery of the language. " />
                 <meta name='keywords' content='Basic Python Setup, Python Installation, Setting up Python Environment, Python IDE Setup, Python Configuration' />
             </Helmet>

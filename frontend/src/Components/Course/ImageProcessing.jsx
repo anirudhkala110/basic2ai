@@ -60,7 +60,7 @@ const ImageProcessing = () => {
     return (
         <div className='p-2 my-2' style={{ minWidth: "250px" }}>
             <Helmet>
-                <title>B2A-Image Processing</title>
+                <title>B2A - Image Processing</title>
                 <meta name='description' content=" you can unleash the power of computer vision to analyze, enhance,
                         and manipulate digital images, making it an exciting field at the intersection
                         of technology and creativity." />

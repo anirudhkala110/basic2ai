@@ -60,7 +60,7 @@ const PythonAutomation = () => {
     return (
         <div className='p-2 my-2' style={{ minWidth: "250px" }}>
             <Helmet>
-                <title>B2A-Automation</title>
+                <title>B2A - Automation</title>
                 <meta name='description' content="Python automation streamlines repetitive tasks by writing scripts that perform actions automatically, saving time and effort. Whether you're automating file management, scheduling tasks, or controlling hardware devices, Python's simplicity and flexibility make it a go-to choice for automation projects. By mastering Python automation, you empower yourself to simplify workflows, increase productivity, and focus on more creative endeavors." />
                 <meta name='keywords' content="Python Automation Tools, Automation with Python, Python Scripting, Python Automation Framework, Python Scripting for Automation, Automated Tasks with Python" />
             </Helmet>

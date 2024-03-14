@@ -60,7 +60,7 @@ const PythonSalenium = () => {
     return (
         <div className='p-2 my-2' style={{ minWidth: "250px" }}>
             <Helmet>
-                <title>B2A-Python Web Scraping</title>
+                <title>B2A - Python Web Scraping</title>
                 <meta name='description' content="Python web scraping empowers you to extract data from websites efficiently, automating the process of gathering information for analysis or research. From collecting product prices for competitive analysis to extracting news articles for sentiment analysis, web scraping enables you to access valuable data sources across the internet. With Python's versatility and libraries like BeautifulSoup and Scrapy, you can scrape websites with ease and precision. " />
                 <meta name='keywords' content='Web Scraping with Python, Python Selenium, Selenium Web Scraping, Python Beautiful Soup, Web Scraping Libraries in Python, Python Web Scraping Tutorial' />
             </Helmet>

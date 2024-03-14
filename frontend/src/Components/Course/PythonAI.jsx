@@ -60,7 +60,7 @@ const PythonAI = () => {
   return (
     <div className='p-2 my-2 fontFamily' style={{ minWidth: "250px" }}>
       <Helmet>
-        <title>B2A-Artificial Intelligence</title>
+        <title>B2A - Artificial Intelligence</title>
         <meta name='description' content="Python AI merges the power of Python programming with artificial intelligence techniques, making it a dynamic duo for solving complex problems. Whether you're creating chatbots for customer service, implementing natural language processing for sentiment analysis, or developing self-learning algorithms for predictive analytics, Python AI offers endless possibilities to explore the realm of intelligent systems." />
         <meta name='keywords' content='Image Processing in Python, Python Image Processing Libraries, Python OpenCV, Image Processing Techniques in Python, Python Image Analysis, Image Manipulation with Python' />
       </Helmet>

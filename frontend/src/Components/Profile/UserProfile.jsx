@@ -112,7 +112,7 @@ const UserProfile = () => {
                     {msg && <center className={`${msg_type == 'good' ? 'text-success' : 'text-danger'}`} >{msg}</center>}
                 </div>} */}
                 <Helmet>
-                    <title>B2A- User Profile</title>
+                    <title>B2A - User Profile</title>
                 </Helmet>
                 <div className='card py-2' style={{ minWidth: "250px" }}>
                     <div className='card-body'>
