@@ -21,7 +21,8 @@ html {
 
 .offcanvas-backdrop.show {
   opacity: .5;
-  width: -webkit-fill-available;;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 .app {
