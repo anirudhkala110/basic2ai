@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 // import sampleUpdate from './Images/SmapleUpdate.mp4';
-import sampleUpdate from './Images/1pX9.gif';
+import sampleUpdate from './SmapleVideo.mp4';
+// import sampleUpdate from './Images/1pX9.gif';
 
 const VideoComponent = () => {
     const videoRef = useRef(null);
