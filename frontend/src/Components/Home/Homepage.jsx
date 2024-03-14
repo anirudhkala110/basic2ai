@@ -52,7 +52,12 @@ const Homepage = () => {
     }
   }
   return (
-    <div className='w-100' style={{ minWidth: "355px", minHeight: "90vh", overflowY: "auto", background: "white" }}>
+    <div className='w-100' style={{ minWidth: "255px", minHeight: "90vh", overflowY: "auto", background: "white" }}>
+      <Helmet>
+        <title>Basic 2 AI - Homepage</title>
+        <meta name='description' content="Python programming, Python courses, Python tutorials, Python classes, Python training, Python coaching, Learn Python, Python certification, Python bootcamp, Online Python courses, Python for beginners, Advanced Python, Python workshops, Python coding academy, Python mentorship, Python development courses, Python coding school, Python crash course, Python coding camps, " />
+        <meta name='keywords' content='Natural Language Processing (NLP), Machine Learning (ML), Deep Learning, Neural Networks (NN), Artificial Intelligence (AI), Data Science, Data Analysis, Data Visualization, Web Scraping, Automation, Computer Vision, Image Processing, Sentiment Analysis, Chatbots, Recommender Systems, Text Mining, Speech Recognition, Time Series Analysis, Reinforcement Learning, Predictive Modeling' />
+      </Helmet>
       <center>
         <h2 className='w-100'><Typewriter /></h2>
       </center>
