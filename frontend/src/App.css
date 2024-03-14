@@ -19,6 +19,11 @@ html {
   }
 }
 
+.offcanvas-backdrop.show {
+  opacity: .5;
+  width: -webkit-fill-available;;
+}
+
 .app {
   transform: scale(1) !important;
 }
@@ -650,10 +655,10 @@ html {
 }
 
 .sliderCallBtn:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.callBtn{
+.callBtn {
   filter: drop-shadow(0px 0px 2px black);
 }
 
