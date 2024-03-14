@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet'
 import { useNavigate, useNavigationType } from 'react-router-dom'
 
 const ImageProcessing = () => {
@@ -57,7 +58,14 @@ const ImageProcessing = () => {
             })
     })
     return (
-        <div className='p-2 my-2' style={{ minWidth: "500px" }}>
+        <div className='p-2 my-2' style={{ minWidth: "250px" }}>
+            <Helmet>
+                <title>Basic 2 AI - Image Processing</title>
+                <meta name='description' content=" you can unleash the power of computer vision to analyze, enhance,
+                        and manipulate digital images, making it an exciting field at the intersection
+                        of technology and creativity." />
+                <meta name='keywords' content='Image Processing in Python, Python Image Processing Libraries, Python OpenCV, Image Processing Techniques in Python, Python Image Analysis, Image Manipulation with Python' />
+            </Helmet>
             <center><h3>Image Processing</h3> </center>
             <hr />
             <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>

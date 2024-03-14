@@ -69,7 +69,7 @@ const UploadPdf = () => {
             <div className='p-2 bg-light rounded '>
                 <h4>Upload File for "<b>{topic}</b>"</h4>
                 <hr className='horizontalBack' />
-                <form className='border p-3 rounded shadow' onSubmit={handleSubmit} style={{ maxWidth: "", minWidth: "400px" }}>
+                <form className='border p-3 rounded shadow' onSubmit={handleSubmit} style={{ maxWidth: "", minWidth: "250px" }}>
                     <div className='form-group'>
                         <label className='form-label'>Name of File</label>
                         <input type='text' className='form-control mb-2' placeholder='Enter the File Name' onChange={e => setFileName(e.target.value)} required />

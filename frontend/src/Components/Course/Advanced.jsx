@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet'
 import { useNavigate } from 'react-router-dom'
 
 const Advanced = () => {
@@ -57,7 +58,12 @@ const Advanced = () => {
       })
   })
   return (
-    <div className='p-2 my-2' style={{ minWidth: "500px" }}>
+    <div className='p-2 my-2' style={{ minWidth: "250px" }}>
+      <Helmet>
+        <title>Basic 2 AI - Advanced Python</title>
+        <meta name='description' content="Advanced Python delves deeper into the language's capabilities, covering topics like metaprogramming, decorators, and asynchronous programming." />
+        <meta name='keywords' content='Python Pandas, Python NumPy, Python Regression, Python Clustering, Advanced Python Techniques, Python Data Analysis, Python Data Science, Python Machine Learning, Advanced Python Libraries' />
+      </Helmet>
       <center><h3>Advanced Python</h3> </center>
       <hr />
       <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>

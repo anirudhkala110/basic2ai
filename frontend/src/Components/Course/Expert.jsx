@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet'
 import { useNavigate } from 'react-router-dom'
 
 const Expert = () => {
@@ -24,22 +25,22 @@ const Expert = () => {
   }
   useEffect(() => {
     axios.get('http://localhost:8099/loggin')
-    .then(res => {
+      .then(res => {
         setLoggedIn(res.data.login)
         if (res.data.role === 'admin')
-            setIsadmin(true)
+          setIsadmin(true)
         else {
-            setIsadmin(false)
+          setIsadmin(false)
         }
         if (res.data.verified > 0 || res.data.verified) {
-            setVeified(true)
+          setVeified(true)
         }
         else
-            setVeified(false)
-    })
-    .catch(err => {
+          setVeified(false)
+      })
+      .catch(err => {
         console.log(err)
-    })
+      })
     axios.get(`http://localhost:8099/get_pdf/${id}`)
       .then(res => {
         if (res.data.data.length < 1) {
@@ -57,7 +58,12 @@ const Expert = () => {
       })
   })
   return (
-    <div className='p-2 my-2 fontFamily' style={{ minWidth: "500px" }}>
+    <div className='p-2 my-2 fontFamily' style={{ minWidth: "250px" }}>
+      <Helmet>
+        <title>Basic 2 AI - Machine Learning</title>
+        <meta name='keywords' content="Python Machine Learning, Machine Learning Algorithms in Python, Python ML Libraries, Python Scikit-learn, Machine Learning Models in Python, Python ML Tutorials, Python ML Projects" />
+        <meta name='description' content='Machine learning empowers computers to learn from data and improve over time without being explicitly programmed.' />
+      </Helmet>
       <center><h3>Machine Learning</h3> </center>
       <hr />
       <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "80vh", overflowX: 'auto' }}>

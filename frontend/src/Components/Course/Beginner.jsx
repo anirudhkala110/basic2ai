@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 
 const Beginner = () => {
@@ -57,7 +58,12 @@ const Beginner = () => {
             })
     })
     return (
-        <div className='p-2 my-2' style={{ minWidth: "350px" }}>
+        <div className='p-2 my-2' style={{ minWidth: "250px" }}>
+            <Helmet>
+                <title>Basic 2 AI - Python Setup</title>
+                <meta name='description' content="Basic Python covers essential concepts and constructs of the Python programming language, including variables, loops, conditionals, and functions. It serves as a stepping stone for beginners to understand programming principles and develop problem-solving skills. With Basic Python, you embark on a journey to explore the core features of Python, paving the way for further learning and mastery of the language. " />
+                <meta name='keywords' content='Basic Python Setup, Python Installation, Setting up Python Environment, Python IDE Setup, Python Configuration' />
+            </Helmet>
             <center><h3>Basic Setup</h3> </center>
             <hr />
             <div className='p-2 rounded-2 my-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>

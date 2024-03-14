@@ -32,7 +32,7 @@ const Course = () => {
             .catch(err => console.log(err))
     })
     return (
-        <div className='basedisplay w-100' style={{ minWidth: "500px" }}>
+        <div className='basedisplay w-100' style={{ minWidth: "250px" }}>
             <div className='hide-1000 '>
                 <button class="me-2 setPosition " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLevels" aria-controls="offcanvasLevels">
                     <i class="bi bi-arrow-down-up fs-2"></i>

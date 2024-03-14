@@ -7,7 +7,7 @@ const PageNotFound = () => {
         <div style={{ background: "#0e153", minHeight: "87vh" }}>
             <div className=" d-flex justify-content-center align-items-center container-fluid pnfBase">
                 <div className=' p-2'>
-                    <center className=' d-flex justify-content-center' style={{ content: '',height:'30vh',minHeight:"300px" }}>
+                    <center className=' d-flex justify-content-center' style={{ content: '',height:'30vh',minHeight:"250px" }}>
                         {/* <img src={vdo} className='my-2 rounded' style={{ height: "500px", width: "" }} /> */}
 
                         <div className='text-black mx-3 down1'>4</div>
