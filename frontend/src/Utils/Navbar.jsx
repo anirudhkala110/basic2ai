@@ -40,7 +40,7 @@ const Navbar = () => {
         window.location.href = `/${route}`
     }
     return (
-        <div className='navBack' style={{ minWidth: "350px" }}>
+        <div className='navBack' style={{ minWidth: "250px" }}>
             <div className='suport' >&nbsp;</div>
             <nav className="navbar navbar-light navbar-expand-lg sticky-top px-2 d-flex justify-content-between align-items-center" style={{ background: "linear-gradient(180deg,rgb(0 0 0 / 59%), #0000009a, rgb(0 0 0 / 59%))", minHeight: "55px" }}>
                 <div className='text-light d-flex align-items-center' onClick={e => handleRoute('')} style={{ cursor: "pointer" }}>
