@@ -16,7 +16,7 @@ html {
 @media only screen and (max-width:600px) {
   .app{
     transform: scale(0.95);
-    margin-top: -50px;
+    margin-top: -30px;
     padding-top: 0px !important;
   }
 }
