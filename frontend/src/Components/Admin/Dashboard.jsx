@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 import { userContext } from '../../App';
+import { Helmet } from 'react-helmet';
 
 const Dashboard = () => {
     const [dataFetch, setDataFetch] = useState(null)
@@ -66,6 +67,9 @@ const Dashboard = () => {
     };
     return (
         <div className='my-2 border' style={{ minHeight: "85vh", minWidth: '250px' }}>
+            <Helmet>
+                <title>B2A- Dashboard</title>
+            </Helmet>
             <h1>Dashboard</h1>
             <div className='dashboard align-items-start' >
                 <div className='childDash' >

@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 import { userContext } from '../../App';
+import { Helmet } from 'react-helmet';
 
 axios.defaults.withCredentials = true
 const UserProfile = () => {
@@ -110,7 +111,9 @@ const UserProfile = () => {
                     </form>
                     {msg && <center className={`${msg_type == 'good' ? 'text-success' : 'text-danger'}`} >{msg}</center>}
                 </div>} */}
-
+                <Helmet>
+                    <title>B2A- User Profile</title>
+                </Helmet>
                 <div className='card py-2' style={{ minWidth: "250px" }}>
                     <div className='card-body'>
                         <p className='card-title text-center fs-3 fw-semibold'>User Profile</p>
@@ -119,7 +122,7 @@ const UserProfile = () => {
                         <p className='fw-semibold'>Email: {user.email}</p>
                         <div className='card-footer'>
                             <p className='fw-semibold'>Role: <t className="text-uppercase">{user.role}</t></p>
-                            <p className='fs-5'>Enrolled Account: {valid != 0  ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</p>
+                            <p className='fs-5'>Enrolled Account: {valid != 0 ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</p>
                         </div>
                     </div>
                 </div>
