@@ -10,17 +10,19 @@ html {
   background-repeat: no-repeat;
   min-width: 700px;
 }
+
 @media only screen and (max-width:600px) {
-  .app{
+  .app {
     transform: scale(0.95);
     margin-top: -50px;
     padding-top: 0px !important;
   }
 }
 
-.app{
+.app {
   transform: scale(1) !important;
 }
+
 .userProfileBase {
   display: flex;
   align-items: start;
@@ -644,14 +646,15 @@ html {
   border: none;
   padding: 0%;
   transition: .2s ease-in-out;
+  margin-top: 80px;
 }
 
 .sliderCallBtn:hover {
-  background-color: #0e1538 !important;
-  font-size: 24px !important;
-  color: white;
-  padding: 1px;
-  border-radius: 50px;
+transform: scale(1.05);
+}
+
+.callBtn{
+  filter: drop-shadow(0px 0px 2px black);
 }
 
 .send-mail,
