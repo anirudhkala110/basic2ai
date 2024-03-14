@@ -60,7 +60,7 @@ const Advanced = () => {
   return (
     <div className='p-2 my-2' style={{ minWidth: "250px" }}>
       <Helmet>
-        <title>Basic 2 AI - Advanced Python</title>
+        <title>B2A-Advanced Python</title>
         <meta name='description' content="Advanced Python delves deeper into the language's capabilities, covering topics like metaprogramming, decorators, and asynchronous programming." />
         <meta name='keywords' content='Python Pandas, Python NumPy, Python Regression, Python Clustering, Advanced Python Techniques, Python Data Analysis, Python Data Science, Python Machine Learning, Advanced Python Libraries' />
       </Helmet>

@@ -66,8 +66,8 @@ const Contact = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us</title>
-                <meta name='description' content='' />
+                <title>B2A - Contact Us</title>
+                <meta name='description' content='Query abuout any process, Subject, topic, and Cunsultaion' />
                 <meta name='keywords' content='' />
             </Helmet>
             <div className="bg-white">

@@ -65,7 +65,7 @@ const Dashboard = () => {
             });
     };
     return (
-        <div className='my-2 border' style={{ minHeight: "85vh", minWidth: '500px' }}>
+        <div className='my-2 border' style={{ minHeight: "85vh", minWidth: '250px' }}>
             <h1>Dashboard</h1>
             <div className='dashboard align-items-start' >
                 <div className='childDash' >

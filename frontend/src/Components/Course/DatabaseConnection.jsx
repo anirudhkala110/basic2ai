@@ -60,7 +60,7 @@ const DatabaseConnection = () => {
     return (
         <div className='p-2 my-2' style={{ minWidth: "250px" }}>
             <Helmet>
-                <title>Basic 2 AI - Python Connection with Database</title>
+                <title>B2A-Python Connection with Database</title>
                 <meta name='description' content="Integrating SQL with Python allows seamless interaction with databases, enabling data retrieval, manipulation, and analysis. Whether you're building web applications with Django or Flask, conducting data analysis with pandas, or developing machine learning models with scikit-learn, SQL in Python serves as a powerful tool for managing and querying structured data, enhancing your ability to extract valuable insights. " />
                 <meta name='keywords' content='Python SQL, SQL in Python, Database Operations in Python, Python Database Connectivity, Python SQLite, Python MySQL, Python PostgreSQL, Database Queries in Python' />
             </Helmet>

@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet'
 import { useNavigate } from 'react-router-dom'
 
 const Pricing = () => {
@@ -33,6 +34,11 @@ const Pricing = () => {
     }
     return (
         <div style={{ minHeight: "85vh" }}>
+            <Helmet>
+                <title>B2A-Pricing</title>
+                <meta name='description' content="" />
+                <meta name='keywords' content='' />
+            </Helmet>
             <center className='mb-3 fw-bold'><h1>Detailing and Pricing for the Courses</h1></center>
             <marquee behavior='alternate' scrollamount='0' className='px-3 marqu '>
                 <div className='d-flex slideIT justify-content-between align-items-center w-100 px-5 py-2 fs-5 fw-bolder' style={{ filter: "drop-shadow(0px 5px 5px black)" }}>

@@ -13,6 +13,7 @@ import machineLearning from './Images/MachineLearning.jpg'
 // import sampleUpdate from './Images/SmapleUpdate.mp4'
 import VideoComponent from './VideoComponent'
 import Typewriter from '../../Utils/Typewriter'
+import { Helmet } from 'react-helmet'
 
 const Homepage = () => {
 

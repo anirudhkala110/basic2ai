@@ -60,7 +60,7 @@ const StarterPython = () => {
     return (
         <div className='p-2 my-2' style={{ minWidth: "250px" }}>
             <Helmet>
-                <title>Basic 2 AI - Starter Python</title>
+                <title>B2A-Starter Python</title>
                 <meta name='description' content="Starter Python provides an introduction to the fundamentals of programming using Python, making it accessible to beginners. From learning basic syntax and data types to writing simple scripts and solving small coding challenges" />
                 <meta name='keywords' content='Python Basics, Python Fundamentals, Python Introduction, Python Tutorial, Python Programming, Python Syntax, Python Variables, Python Data Types' />
             </Helmet>

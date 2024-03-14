@@ -60,7 +60,7 @@ const Expert = () => {
   return (
     <div className='p-2 my-2 fontFamily' style={{ minWidth: "250px" }}>
       <Helmet>
-        <title>Basic 2 AI - Machine Learning</title>
+        <title>B2A-Machine Learning</title>
         <meta name='keywords' content="Python Machine Learning, Machine Learning Algorithms in Python, Python ML Libraries, Python Scikit-learn, Machine Learning Models in Python, Python ML Tutorials, Python ML Projects" />
         <meta name='description' content='Machine learning empowers computers to learn from data and improve over time without being explicitly programmed.' />
       </Helmet>

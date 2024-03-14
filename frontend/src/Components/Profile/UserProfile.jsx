@@ -111,7 +111,7 @@ const UserProfile = () => {
                     {msg && <center className={`${msg_type == 'good' ? 'text-success' : 'text-danger'}`} >{msg}</center>}
                 </div>} */}
 
-                <div className='card py-2' style={{ minWidth: "350px" }}>
+                <div className='card py-2' style={{ minWidth: "250px" }}>
                     <div className='card-body'>
                         <p className='card-title text-center fs-3 fw-semibold'>User Profile</p>
                         <hr />
