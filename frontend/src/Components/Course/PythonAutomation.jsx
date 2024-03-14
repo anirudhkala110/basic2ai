@@ -60,7 +60,7 @@ const PythonAutomation = () => {
         <div className='p-2 my-2' style={{ minWidth: "500px" }}>
             <center><h3>Python Automation</h3> </center>
             <hr />
-            <div className='p-2 my-2 rounded-2 border base_for_levels_description shadow' style={{ height: "78vh", overflowX: 'auto' }}>
+            <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>
                 <div>
                     <p>Python automation streamlines repetitive tasks by writing scripts that perform actions automatically, saving time and effort. Whether you're automating file management, scheduling tasks, or controlling hardware devices, Python's simplicity and flexibility make it a go-to choice for automation projects. By mastering Python automation, you empower yourself to simplify workflows, increase productivity, and focus on more creative endeavors.</p>
                     <div>

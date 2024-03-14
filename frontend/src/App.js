@@ -43,7 +43,7 @@ function App() {
     window.location.href = `tel:${phoneNumber}`;
   }
   return (
-    <div className='container w-100 px-0' style={{ minWidth: '370px' }}>
+    <div className='w-100 px-0' style={{ minWidth: '370px' }}>
       <userContext.Provider value={user}>
         <div className="bg-white fontFamily" style={{ minWidth: "350px" }}>
           <div className='w-100 fixed-top'>
@@ -51,10 +51,10 @@ function App() {
           </div>
           <div className='pt-3 border-5 border-black mb-5' style={{ minHeight: "100vh" }}>
             <div className='py-1 bg-white mb-5 pt-5' >
-              <div className='w-100 d-flex align-items-bottom  justify-content-start fixed-top mt-5 pt-3 pe-4' style={{ height: "20px" }}>
+              <div className='w-100 d-flex align-items-bottom  justify-content-start fixed-top mt-5 pt-3 pe-4' style={{ height: "15px" }}>
                 <button className='fw-bolder rounded-5 shadow mt-5 sliderCallBtn' onClick={e => handleCallBtn(7668490213)}><img src={callBtn} className='' width={50} /></button>
               </div>
-              <div className='container-fluid app'>
+              <div className='container-fluid'>
                 <Router>
                   <Routes>
                     <Route exact path='/login' element={login ? <Homepage /> : <Login />} />

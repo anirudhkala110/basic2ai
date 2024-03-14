@@ -60,7 +60,7 @@ const Beginner = () => {
         <div className='p-2 my-2' style={{ minWidth: "350px" }}>
             <center><h3>Basic Setup</h3> </center>
             <hr />
-            <div className='p-2 rounded-2 border my-2 base_for_levels_description shadow' style={{ height: "78vh", overflowX: 'auto' }}>
+            <div className='p-2 rounded-2 my-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>
                 <div>
                     <p>Basic Python covers essential concepts and constructs of the Python programming language, including variables, loops, conditionals, and functions. It serves as a stepping stone for beginners to understand programming principles and develop problem-solving skills. With Basic Python, you embark on a journey to explore the core features of Python, paving the way for further learning and mastery of the language.</p>
                     <div>

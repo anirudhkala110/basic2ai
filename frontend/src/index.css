@@ -13,14 +13,6 @@ html {
   background-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
-@media only screen and (max-width:600px) {
-  .app{
-    transform: scale(0.95);
-    margin-top: -30px;
-    padding-top: 0px !important;
-  }
-}
-
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;

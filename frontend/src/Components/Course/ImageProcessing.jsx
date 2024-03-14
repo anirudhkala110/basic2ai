@@ -60,7 +60,7 @@ const ImageProcessing = () => {
         <div className='p-2 my-2' style={{ minWidth: "500px" }}>
             <center><h3>Image Processing</h3> </center>
             <hr />
-            <div className='p-2 my-2 rounded-2 border base_for_levels_description shadow' style={{ height: "78vh", overflowX: 'auto' }}>
+            <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>
                 <div>
                     <p>Did you know that image processing is used in medical imaging to detect
                         diseases like cancer at an early stage? It's also essential in satellite

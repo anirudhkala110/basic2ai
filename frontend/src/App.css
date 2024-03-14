@@ -10,7 +10,17 @@ html {
   background-repeat: no-repeat;
   min-width: 700px;
 }
+@media only screen and (max-width:600px) {
+  .app{
+    transform: scale(0.95);
+    margin-top: -50px;
+    padding-top: 0px !important;
+  }
+}
 
+.app{
+  transform: scale(1) !important;
+}
 .userProfileBase {
   display: flex;
   align-items: start;

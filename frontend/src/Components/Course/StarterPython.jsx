@@ -60,7 +60,7 @@ const StarterPython = () => {
         <div className='p-2 my-2' style={{ minWidth: "500px" }}>
             <center><h3>Starter Python</h3> </center>
             <hr />
-            <div className='p-2 rounded-2 border my-2 base_for_levels_description shadow' style={{ height: "78vh", overflowX: 'auto' }}>
+            <div className='p-2 rounded-2 my-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>
                 <div>
                     <p>Starter Python provides an introduction to the fundamentals of programming using Python, making it accessible to beginners. From learning basic syntax and data types to writing simple scripts and solving small coding challenges, Starter Python lays the foundation for building solid programming skills. With its gentle learning curve and vast community support, Starter Python offers a welcoming entry point into the world of coding.</p>
                     <div>

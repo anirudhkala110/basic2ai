@@ -60,7 +60,7 @@ const Advanced = () => {
     <div className='p-2 my-2' style={{ minWidth: "500px" }}>
       <center><h3>Advanced Python</h3> </center>
       <hr />
-      <div className='p-2 my-2 rounded-2 border base_for_levels_description shadow' style={{ height: "78vh", overflowX: 'auto' }}>
+      <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "78vh", overflowX: 'auto' }}>
         <div>
           <p>Advanced Python delves deeper into the language's capabilities, covering topics like metaprogramming, decorators, and asynchronous programming. It enables you to write cleaner, more efficient code, optimize performance, and tackle complex challenges with elegance. By mastering advanced Python concepts, you elevate your programming skills to a professional level, unlocking new opportunities in software development and engineering.</p>
           <div>

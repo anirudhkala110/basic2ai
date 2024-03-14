@@ -11,7 +11,7 @@ import advancedPython from './Images/advancedPython.png'
 import imageProcessing from './Images/imageProcessing.jfif'
 import machineLearning from './Images/MachineLearning.jpg'
 // import sampleUpdate from './Images/SmapleUpdate.mp4'
-// import VideoComponent from './VideoComponent'
+import VideoComponent from './VideoComponent'
 import Typewriter from '../../Utils/Typewriter'
 
 const Homepage = () => {
@@ -88,7 +88,7 @@ const Homepage = () => {
         </div>
       </marquee>
       <div className=''>
-        {/* <VideoComponent /> */}
+        <VideoComponent />
       </div>
       <div className='backiBase shadow' style={{ width: "", minHeight: "250px", maxHeight: "" }}>
         <div className='p-2 container-fluid'>

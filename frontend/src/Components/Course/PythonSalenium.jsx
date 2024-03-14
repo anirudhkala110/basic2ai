@@ -60,7 +60,7 @@ const PythonSalenium = () => {
         <div className='p-2 my-2' style={{ minWidth: "500px" }}>
             <center><h3>Python WebScraping</h3> </center>
             <hr />
-            <div className='p-2 rounded-2 border my-2 base_for_levels_description shadow' style={{ height: "78vh", overflowX: 'auto' }}>
+            <div className='p-2 rounded-2  my-2 base_for_levels_description ' style={{ minHeight: "78vh", overflowX: 'auto' }}>
                 <div>
                     <p>Python web scraping empowers you to extract data from websites efficiently, automating the process of gathering information for analysis or research. From collecting product prices for competitive analysis to extracting news articles for sentiment analysis, web scraping enables you to access valuable data sources across the internet. With Python's versatility and libraries like BeautifulSoup and Scrapy, you can scrape websites with ease and precision.</p>
                     <div>

@@ -60,7 +60,7 @@ const Expert = () => {
     <div className='p-2 my-2 fontFamily' style={{ minWidth: "500px" }}>
       <center><h3>Machine Learning</h3> </center>
       <hr />
-      <div className='p-2 my-2 rounded-2 border base_for_levels_description shadow' style={{ height: "80vh", overflowX: 'auto' }}>
+      <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "80vh", overflowX: 'auto' }}>
         <div>
           <p>Machine learning empowers computers to learn from data and improve over time without being explicitly programmed. It's the driving force behind personalized recommendations on streaming platforms, predictive maintenance in industries, and autonomous vehicles. With machine learning, you dive into algorithms that enable computers to make data-driven decisions, revolutionizing various fields like healthcare, finance, and marketing.</p>
           <div>

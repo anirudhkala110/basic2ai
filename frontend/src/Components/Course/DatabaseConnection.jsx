@@ -60,7 +60,7 @@ const DatabaseConnection = () => {
         <div className='p-2 my-2' style={{ minWidth: "500px" }}>
             <center><h3>Python + Database</h3> </center>
             <hr />
-            <div className='p-2 my-2 rounded-2 border base_for_levels_description shadow' style={{ height: "80vh", overflowX: 'auto' }}>
+            <div className='p-2 my-2 rounded-2 base_for_levels_description' style={{ minHeight: "80vh", overflowX: 'auto' }}>
                 <div>
                     <p>Integrating SQL with Python allows seamless interaction with databases, enabling data retrieval, manipulation, and analysis. Whether you're building web applications with Django or Flask, conducting data analysis with pandas, or developing machine learning models with scikit-learn, SQL in Python serves as a powerful tool for managing and querying structured data, enhancing your ability to extract valuable insights.</p>
                     <div>
