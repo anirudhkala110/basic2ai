@@ -8,7 +8,10 @@ html {
   /* background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%); */
   background-image: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
   background-repeat: no-repeat;
-  min-width: 700px;
+  min-width: 350px;
+  overflow: auto;
+  overscroll-behavior:inherit;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (max-width:600px) {
@@ -22,7 +25,7 @@ html {
 .offcanvas-backdrop.show {
   opacity: .5;
   width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  height: -webkit-fill-available; 
 }
 
 .app {
@@ -267,18 +270,19 @@ html {
 
 .backiBase {
   color: white;
-  background-image: url(./Components/Home/Images/1pX9.gif);
+  /* background-image: url(./Components/Home/Images/1pX9.gif); */
   background-size: cover;
   background-repeat: no-repeat;
-  filter: drop-shadow(0px 0px 20px black);
+  /* filter: drop-shadow(0px 0px 20px black); */
 }
 
 .backi {
-  color: white;
+  color: #000f16;
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
   filter: drop-shadow(0px 0px 20px black);
+  min-height: fit-content !important;
 }
 
 .positionSetupforVideo {

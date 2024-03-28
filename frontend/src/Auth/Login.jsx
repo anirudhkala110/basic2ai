@@ -44,7 +44,7 @@ const Login = () => {
             })
     }
     return (
-        <div className='w-100  d-flex justify-content-center' style={{ minHeight: "85vh", minWidth: "350px" }}>
+        <div className='w-100  d-flex justify-content-center' style={{ minHeight: "85vh", minWidth: "250px" }}>
             <div className='w-50'>
                 <h1>Login Form</h1>
                 <form className='p-2 bg-white shadow' onSubmit={handleLogin}>

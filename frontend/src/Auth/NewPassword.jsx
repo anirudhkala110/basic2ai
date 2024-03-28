@@ -38,7 +38,7 @@ const NewPassword = () => {
     return (
         <div className='w-100 d-flex justify-content-center'>
             {
-                validated ? <div className='' style={{ maxWidth: "750px", minWidth: "350px" }}>
+                validated ? <div className='' style={{ maxWidth: "750px", minWidth: "250px" }}>
                     <center ><h3>Reset Password</h3></center>
                     <form className='p-2 bg-white shadow' style={{ maxWidth: "650px", minWidth: "250px" }} onSubmit={handleUpdatePass}>
                         {msg && <h5 className={`${msg_type == 'good' ? 'text-success' : 'text-danger'} text-center`}>{msg}</h5>}

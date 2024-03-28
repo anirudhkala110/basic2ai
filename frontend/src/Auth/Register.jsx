@@ -60,7 +60,7 @@ const Register = () => {
             .catch(err => console.log(err))
     }
     return (
-        <div className='w-100 d-flex justify-content-center bg-light' style={{ height: "50vh", minWidth: "300px" }}>
+        <div className='w-100 d-flex justify-content-center bg-light' style={{ height: "50vh", minWidth: "250px" }}>
             <div className='p-2 bg-light'>
                 <h2 className='mb-2'>Register</h2>
                 <form className='p-2 bg-white shadow' style={{ maxWidth: "650px", minWidth: "250px" }} onSubmit={handleRegister}>

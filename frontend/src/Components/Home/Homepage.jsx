@@ -96,17 +96,17 @@ const Homepage = () => {
       <div className=''>
         <VideoComponent />
       </div>
-      <div className='backiBase shadow' style={{ width: "", minHeight: "250px", maxHeight: "" }}>
+      <div className='backiBase shadow' style={{ width: "", minHeight: "300px", maxHeight: "" }}>
         <div className='p-2 container-fluid'>
           <div className='' style={{ position: "static" }}>
-            <div className='backiBase' style={{ color: "" }}>
-              <div className={`p-2 fade-in-out backi text-white  ${currentIndex === 0 ? 'fade-in' : ''}`}>
+            <div className='backiBase' style={{ color: "", height:'-webkit-fill-available' }}>
+              <div className={`p-2 fade-in-out backi ${currentIndex === 0 ? 'fade-in' : ''}`}>
                 From grasping the basics of Python syntax and data types to navigating more intricate concepts like functions and modules, the journey from a novice to an expert in Python is a captivating one. At the basic level, learners acquaint themselves with the core elements of Python, understanding how to structure code and execute simple programs. Progressing to an intermediate stage, they delve deeper into topics such as file handling and exception handling, honing their skills in building more robust applications. As proficiency grows, so does the complexity of the challenges tackled. Advanced Python enthusiasts explore sophisticated language features like decorators and generators, striving for code elegance and efficiency.
               </div>
-              <div className={`p-2 fade-in-out backi text-white ${currentIndex === 1 ? 'fade-in' : ''}`}>
+              <div className={`p-2 fade-in-out backi ${currentIndex === 1 ? 'fade-in' : ''}`}>
                 The realm of web development beckons, beckoning adventurers to explore frameworks like Django and Flask, where they craft dynamic and interactive web applications. Beyond traditional domains, Python enthusiasts often specialize in niche areas like data science or machine learning, where they harness powerful libraries and frameworks tailored to their specific needs. With each level of expertise attained, from basic proficiency to specialized mastery, the allure of Python's versatility and elegance continues to inspire learners on their quest for knowledge and innovation.
               </div>
-              <div className={`p-2 fade-in-out backi text-white ${currentIndex === 2 ? 'fade-in' : ''}`}>
+              <div className={`p-2 fade-in-out backi ${currentIndex === 2 ? 'fade-in' : ''}`}>
                 Pythonic practices become ingrained, guiding developers toward writing idiomatic code that adheres to community standards and enhances readability. Object-oriented programming principles come to the forefront, empowering developers to design scalable and maintainable solutions by leveraging concepts like encapsulation and inheritance. Mastery extends to data structures and algorithms, as practitioners delve into efficient methods for organizing and manipulating data. Concurrency and parallelism open up new avenues, enabling developers to optimize performance by executing tasks concurrently or in parallel.
               </div>
             </div>

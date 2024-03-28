@@ -42,7 +42,7 @@ const VerifyEmail = () => {
 
     return (
         <div className='container-fluid w-100 d-flex justify-content-center'>
-            <div className='' style={{ maxWidth: "770px", minWidth: "350px" }}>
+            <div className='' style={{ maxWidth: "770px", minWidth: "250px" }}>
                 <div className={`alert ${msg_type === 'error' ? 'alert-danger text-danger-emphasis' : 'alert-success text-success-emphasis'} my-3`}>
                     <i className="bi bi-exclamation-circle me-4"></i> {msg}
                 </div>
