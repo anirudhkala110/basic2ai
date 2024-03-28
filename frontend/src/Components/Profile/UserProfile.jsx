@@ -8,7 +8,7 @@ const UserProfile = () => {
     const [course, setCourse] = useState(0);
     const [dataAva, setDataava] = useState()
     const user = useContext(userContext)
-    const [valid, setValid] = useState(null)
+    const [vadivd, setVadivd] = useState(null)
     const [msg, setMsg] = useState('Token is not available')
     const [msg_type, setMsg_type] = useState()
     const [logoutHide, setLogoutHide] = useState(true)
@@ -55,14 +55,14 @@ const UserProfile = () => {
                     setBasic(false)
                     setAdv(false)
                     setExp(false)
-                    setValid(0)
+                    setVadivd(0)
                     // alert("Your Account is not verified at administerator Level please contact them.")
                 }
                 else {
                     setBasic(res.data.basic)
                     setAdv(res.data.advanced)
                     setExp(res.data.expert)
-                    setValid(res.data.valid)
+                    setVadivd(res.data.vadivd)
                 }
             })
             .catch(err => console.log(err))
@@ -107,7 +107,7 @@ const UserProfile = () => {
                             </option>
                         </select>
                         <hr />
-                        <button onClick={handleUpdate} className="btn btn-primary" disabled={!valid}>Update Courses</button>
+                        <button onCdivck={handleUpdate} className="btn btn-primary" disabled={!vadivd}>Update Courses</button>
                     </form>
                     {msg && <center className={`${msg_type == 'good' ? 'text-success' : 'text-danger'}`} >{msg}</center>}
                 </div>} */}
@@ -122,7 +122,7 @@ const UserProfile = () => {
                         <p className='fw-semibold'>Email: {user.email}</p>
                         <div className='card-footer'>
                             <p className='fw-semibold'>Role: <t className="text-uppercase">{user.role}</t></p>
-                            <p className='fs-5'>Enrolled Account: {valid != 0 ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</p>
+                            <p className='fs-5'>Enrolled Account: {vadivd != 0 ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</p>
                         </div>
                     </div>
                 </div>
@@ -149,25 +149,40 @@ const UserProfile = () => {
                                 <td>{user.username}</td>
                                 <td>{user.email}</td>
                                 <td>{user.role}</td>
-                                <td>{valid != 0 ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</td>
+                                <td>{vadivd != 0 ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</td>
                                 <td>
-                                    <div className='w-50 d-flex align-items-center justify-content-center'>
+                                    <div className='w-50 d-flex adivgn-items-center justify-content-center'>
                                         {basic != 0 ? <i class="bi bi-check2-all" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}
                                     </div>
                                 </td>
                                 <td>
-                                    <div className='w-50 d-flex align-items-center justify-content-center'>
+                                    <div className='w-50 d-flex adivgn-items-center justify-content-center'>
                                         {advanced != 0 ? <i class="bi bi-check2-all" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}
                                     </div>
                                 </td>
                                 <td>
-                                    <div className='w-50 d-flex align-items-center justify-content-center'>
+                                    <div className='w-50 d-flex adivgn-items-center justify-content-center'>
                                         {expert != 0 ? <i class="bi bi-check2-all" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}
                                     </div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+                    <div className='tableunder800 card px-3 py-2'>
+                        <div className='ps-3 py-1' style={{background:'rgb(108 117 125 / 13%)'}}><strong>Name :</strong>&nbsp;&nbsp;{user.username}</div>
+                        <div className='ps-3 py-1' style={{background:''}}><strong>Email :</strong>&nbsp;&nbsp; {user.email}</div>
+                        <div className='ps-3 py-1' style={{background:'rgb(108 117 125 / 13%)'}}><strong>Role :</strong>&nbsp;&nbsp; {user.role}</div>
+                        <div className='ps-3 py-1' style={{background:''}}><strong>Verified :</strong>&nbsp;&nbsp; {vadivd != 0 ? <i class="bi bi-bookmark-check-fill" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}</div>
+                        <div className='ps-3 py-1' style={{background:'rgb(108 117 125 / 13%)'}}><strong>Basic Course :</strong>&nbsp;&nbsp;
+                            {basic != 0 ? <i class="bi bi-check2-all" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}
+                        </div>
+                        <div className='ps-3 py-1' style={{background:''}}><strong>Advanced Course :</strong>&nbsp;&nbsp;
+                            {advanced != 0 ? <i class="bi bi-check2-all" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}
+                        </div>
+                        <div className='ps-3 py-1' style={{background:'rgb(108 117 125 / 13%)'}}><strong>Expert Course :</strong>&nbsp;&nbsp;
+                            {expert != 0 ? <i class="bi bi-check2-all" style={{ color: "green" }}></i> : <i class="bi bi-ban-fill" style={{ color: 'red' }}></i>}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
