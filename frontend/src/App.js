@@ -61,7 +61,7 @@ function App() {
           <div className='w-100 fixed-top'>
             <Navbar />
           </div>
-          <div className='pt-3 border-5 border-black mb-5' style={{ minHeight: "80vh" }}>
+          <div className='pt-3 border-5 border-black mb-5' style={{ minHeight: "100vh" }}>
             <div className='py-1 bg-white mb-5 pt-5' >
               <div className='w-100 d-flex align-items-bottom justify-content-end fixed-top mt-5 pe-4' style={{ height: "1px" }}>
                 <button className='fw-bolder rounded-5 sliderCallBtn' onClick={e => handleCallBtn(7668490213)}><img src={callBtn} className='callBtn' width={40} /></button>
