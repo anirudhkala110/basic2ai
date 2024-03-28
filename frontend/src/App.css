@@ -273,7 +273,7 @@ html {
   display: flex !important;
   justify-content: flex-start;
   min-width: 350px;
-  min-height:120px
+  min-height:100px
 }
 
 .backi {
