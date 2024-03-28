@@ -47,14 +47,14 @@ const VideoComponent = () => {
                 >
                     <source src={sampleUpdate} type="video/mp4" />
                 </video>
-                <div className='d-flex py-1'>
+{/*                 <div className='d-flex py-1'>
                     <div className='mx-2 w-100'>
                         <button className='btn btn-primary w-100 d-flex align-items-center justify-content-center' onClick={decreaseVolume}><b>Decrease Volume</b> <i class="fs-4 bi bi-volume-down"></i></button>
                     </div>
                     <div className='mx-2 w-100'>
                         <button className='btn btn-primary w-100 d-flex align-items-center justify-content-center' onClick={increaseVolume}><b>Increase Volume</b> <i class="fs-4 bi bi-volume-up-fill"></i></button>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
