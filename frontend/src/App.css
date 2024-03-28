@@ -847,6 +847,11 @@ html {
     width: -webkit-fill-available;
   }
 }
+@media only screen and (max-width:4500px) {
+  .backiBase{
+    height:120px ;
+  }
+}
 @media only screen and (max-width:1500px) {
   .backiBase{
     height:120px ;
