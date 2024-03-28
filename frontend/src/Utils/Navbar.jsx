@@ -42,7 +42,7 @@ const Navbar = () => {
     return (
         <div className='navBack' style={{ minWidth: "250px" }}>
             <div className='suport' >&nbsp;</div>
-            <nav className="navbar navbar-light navbar-expand-lg sticky-top px-2 d-flex justify-content-between align-items-center" style={{ background: "linear-gradient(180deg,rgb(0 0 0 / 59%), #0000009a, rgb(0 0 0 / 59%))", minHeight: "55px" }}>
+            <nav className="navbar navbar-expand-lg sticky-top px-2 d-flex justify-content-between align-items-center" style={{ background: "linear-gradient(rgb(0 0 0), rgb(0 0 0 / 88%), rgb(0 0 0)) !important;", minHeight: "55px" }}>
                 <div className='text-light d-flex align-items-center' onClick={e => handleRoute('')} style={{ cursor: "pointer" }}>
                     <img src={logo} className="rounded-4 border shadow" style={{ maxWidth: "40px" }} />
                     <span className='mx-3 fs-2'>B2A</span>
