@@ -28,6 +28,7 @@ function App() {
   const [login, setLogin] = useState(false)
   const [role, setRole] = useState(null)
   const [user, setUser] = useState({})
+  const [theme, setTheme] = useState('light');
   useEffect(() => {
     axios.get('http://localhost:8099/loggin')
       .then(res => {
@@ -42,14 +43,25 @@ function App() {
   const handleCallBtn = (phoneNumber) => {
     window.location.href = `tel:${phoneNumber}`;
   }
+  const toggleTheme = () => {
+    if(theme=='dark'){
+      setTheme('light');
+    }else{
+      setTheme('dark');
+    }
+    console.log(theme)
+  };
   return (
-    <div className='w-100 container-fluid px-0' style={{ minWidth: '370px' }}>
+    <div className='w-100 container-fluid px-0' style={{ minWidth: '370px',filter:`${theme==='light'?'invert(0)':'invert(1)'}` }}>
+
+      {/* <button className='btn border' onClick={toggleTheme} style={{position:'absolute',zIndex:'10000001',top:'12px',left:'30%',color:'white'}}>{theme==='light'?'Dark':'Light'}</button> */}
+
       <userContext.Provider value={user}>
         <div className="bg-white fontFamily" style={{ minWidth: "350px" }}>
           <div className='w-100 fixed-top'>
             <Navbar />
           </div>
-          <div className='pt-3 border-5 border-black mb-5' style={{ minHeight: "100vh" }}>
+          <div className='pt-3 border-5 border-black mb-5' style={{ minHeight: "80vh" }}>
             <div className='py-1 bg-white mb-5 pt-5' >
               <div className='w-100 d-flex align-items-bottom justify-content-end fixed-top mt-5 pe-4' style={{ height: "1px" }}>
                 <button className='fw-bolder rounded-5 sliderCallBtn' onClick={e => handleCallBtn(7668490213)}><img src={callBtn} className='callBtn' width={40} /></button>
@@ -80,7 +92,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='w-100 fixed-bottom' style={{ minHeight: "", top: '', bottom: '0px' }}>
+          <div className='w-100 fixed-bottom' style={{ minHeight: "", top: '100%', bottom: '0px' }}>
             <Footer />
           </div>
         </div>

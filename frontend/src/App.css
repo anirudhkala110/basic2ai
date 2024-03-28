@@ -13,7 +13,6 @@ html {
   overscroll-behavior: inherit;
   scroll-behavior: smooth;
 }
-
 @media only screen and (max-width:600px) {
   .app {
     transform: scale(0.95);

@@ -50,7 +50,7 @@ const UserProfile = () => {
     useEffect(() => {
         axios.get('http://localhost:8099/registration_data')
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 if (res.data.msg === "Data not available" || res.data.msg_type === 'error') {
                     setBasic(false)
                     setAdv(false)
