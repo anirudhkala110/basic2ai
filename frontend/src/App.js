@@ -52,7 +52,7 @@ function App() {
     console.log(theme)
   };
   return (
-    <div className='w-100 container-fluid px-0' style={{ minWidth: '370px',filter:`${theme==='light'?'invert(0)':'invert(1)'}` }}>
+    <div className='w-100 container-fluid px-0' style={{ minWidth: '370px'}}>
 
       {/* <button className='btn border' onClick={toggleTheme} style={{position:'absolute',zIndex:'10000001',top:'12px',left:'30%',color:'white'}}>{theme==='light'?'Dark':'Light'}</button> */}
 
@@ -92,7 +92,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='w-100 fixed-bottom' style={{ minHeight: "", top: '100%', bottom: '0px' }}>
+          <div className='w-100' style={{ minHeight: "", top: '', bottom: '0px' }}>
             <Footer />
           </div>
         </div>
