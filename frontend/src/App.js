@@ -30,7 +30,7 @@ function App() {
   const [user, setUser] = useState({})
   const [theme, setTheme] = useState('light');
   useEffect(() => {
-    axios.get('http://localhost:8099/loggin')
+    axios.get('https://basic2ai.info/loggin')
       .then(res => {
         if (res.data.login) {
           setUser(res.data)
