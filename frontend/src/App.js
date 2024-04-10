@@ -64,7 +64,7 @@ function App() {
           <div className='pt-3 border-5 border-black mb-5' style={{ minHeight: "100vh" }}>
             <div className='py-1 bg-white mb-5 pt-5' >
               <div className='w-100 d-flex align-items-bottom justify-content-end fixed-top mt-5 pe-4' style={{ height: "1px" }}>
-                <button className='fw-bolder rounded-5 sliderCallBtn' onClick={e => handleCallBtn(7668490213)}><img src={callBtn} className='callBtn' width={40} /></button>
+                <button className='fw-bolder rounded-5 sliderCallBtn' onClick={e => handleCallBtn(7607593521)}><img src={callBtn} className='callBtn' width={40} /></button>
               </div>
               <div className='container-fluid'>
                 <Router>
@@ -92,7 +92,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='w-100' style={{ minHeight: "", top: '', bottom: '0px' }}>
+          <div className='w-100' style={{ minHeight: "", top: '50%', bottom: '0px' }}>
             <Footer />
           </div>
         </div>
